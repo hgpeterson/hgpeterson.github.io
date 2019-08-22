@@ -1,0 +1,34 @@
+body {
+	font-family: helvetica;
+	font-size: 1em;
+}
+
+a {
+	color: blue;
+}
+
+.container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+	
+.well {
+	background: #dff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-top: 1%;
+	margin-bottom: 0%;
+	border: 3px solid #000;
+	border-radius: 0.2em;
+}
+  
+#title {
+	background: #aea;
+}
+
+#title>h1 {
+	text-align: center;
+}
