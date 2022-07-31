@@ -8,9 +8,30 @@
 /* --sap-green: rgb(49, 110, 0); */
 }
 
+@font-face {
+  font-family: STIX2;
+  src: url(fonts/STIXTwoText-Regular.otf);
+}
+@font-face {
+  font-family: STIX2;
+  src: url(fonts/STIXTwoText-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: STIX2;
+  src: url(fonts/STIXTwoText-Italic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: STIX2;
+  src: url(fonts/STIXTwoText-BoldItalic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
-	font-family: helvetica;
-	font-size: 1em;
+	font-family: Montserat, Helvetica, Arial, sans-serif;
+	font-size: 1.05em;
 	color: var(--off-white);
   	background: var(--dark-black);
 }
