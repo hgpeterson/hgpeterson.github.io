@@ -1,11 +1,9 @@
 :root {
---dark-black: #0c0c0fff;
---light-black: rgb(31, 31, 37);
---white: #ffffffff;
---off-white: rgb(220,220,220);
---blue-gray: #475977ff;
-/* --magenta-haze: #963d72ff; */
-/* --sap-green: rgb(49, 110, 0); */
+	--dark-black: #0c0c0fff;
+	--light-black: rgb(31, 31, 37);
+	--white: #ffffffff;
+	--off-white: rgb(220,220,220);
+	--blue-gray: #475977ff;
 }
 
 @font-face {
@@ -31,13 +29,12 @@
 
 body {
 	font-family: Montserat, Helvetica, Arial, sans-serif;
-	font-size: 1.05em;
+	font-size: 1em;
 	color: var(--off-white);
   	background: var(--dark-black);
 }
 
 a {
-	/* color: var(--sap-green); */
 	color: rgb(39, 129, 185);
 	text-decoration: none;
 }
@@ -66,4 +63,23 @@ a {
 
 #title>h1 {
 	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.img {
+		width: 90%;
+	}
+	.well>h1 {
+		font-size: 20px;
+	}
+	.well>h2 {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.img {
+		width: auto;
+		height: 10em;
+	}
 }
