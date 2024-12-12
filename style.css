@@ -28,7 +28,7 @@
 }
 
 body {
-	font-family: Montserat, Helvetica, Arial, sans-serif;
+	font-family: STIX2, Montserrat, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	color: var(--off-white);
   	background: var(--dark-black);
@@ -41,8 +41,8 @@ a {
 
 .container {
 	width: 80%;
-	margin-left: 10%;
-	margin-top: 2%;
+	max-width: 1200px;
+	margin: 2% auto;
 }
 	
 .well {
@@ -65,20 +65,21 @@ a {
 	text-align: center;
 }
 
+@media screen and (min-width: 601px) {
+	.headshot {
+		width: 15em;
+	}
+}
+
+/* small screens */
 @media screen and (max-width: 600px) {
 	.headshot {
 		width: 90%;
 	}
 	.well>h1 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.well>h2 {
-		font-size: 15px;
-	}
-}
-
-@media screen and (min-width: 601px) {
-	.headshot {
-		width: 15em;
+		text-align: center;
 	}
 }
